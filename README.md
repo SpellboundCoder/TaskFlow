@@ -14,10 +14,10 @@ TaskFlow is a full stack application built using the Python Flet Framework. This
 - Interactive UI components
 # Home page
 ![home_page](https://github.com/user-attachments/assets/d5674d8d-1bc1-4b6b-94f0-d7f4352d0611)
+![home_page1](https://github.com/user-attachments/assets/32b596f7-80f3-4492-848e-e96e8804f8c1)
 
 # Create task page
 ![cretate_task](https://github.com/user-attachments/assets/4cf0eb91-d3be-401b-85e4-c72f7e5972cc)
-![home_page1](https://github.com/user-attachments/assets/32b596f7-80f3-4492-848e-e96e8804f8c1)
 
 # Completed tasks page 
 ![completed_page](https://github.com/user-attachments/assets/58b71226-f565-44cd-845b-01ed49ab6883)
