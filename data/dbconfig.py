@@ -2,6 +2,7 @@ from typing import List
 
 from sqlalchemy import ForeignKey
 from sqlalchemy import String
+from sqlalchemy import Boolean
 from sqlalchemy import create_engine
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped
@@ -18,35 +19,32 @@ class Base(DeclarativeBase):
 
 
 class User(Base):
-    __tablename__ = "users"
+    __tablename__ = "users"  # noqa
     id: Mapped[int] = mapped_column(primary_key=True)
-    username: Mapped[str] = mapped_column(String(50), nullable=False)
     email: Mapped[str] = mapped_column(String(50), unique=True, nullable=False)
-    password: Mapped[str] = mapped_column(String(60), nullable=False)
-    websites: Mapped[List["Website"]] = relationship(
+    first_name: Mapped[str] = mapped_column(String(60), nullable=False)
+    last_name: Mapped[str] = mapped_column(String(60), nullable=False)
+    tasks: Mapped[List["Task"]] = relationship(
         back_populates="user", cascade="all, delete-orphan")
 
     def __repr__(self) -> str:
-        return f"User(id={self.id!r}, username={self.username!r}, email={self.email!r}, password={self.password!r})"
+        return f"User(id={self.id!r}, username={self.first_name!r}, email={self.email!r}, password={self.last_name!r})"
 
 
-class Website(Base):
-    __tablename__ = "websites"
+class Task(Base):
+    __tablename__ = "tasks"  # noqa
     id: Mapped[int] = mapped_column(primary_key=True)
-    website: Mapped[str] = mapped_column(String(50))
-    icon: Mapped[str] = mapped_column(String(60))
+    task: Mapped[str] = mapped_column(String(500))
     tag: Mapped[str] = mapped_column(String(60))
-    email: Mapped[str] = mapped_column(String(120))
-    username: Mapped[str] = mapped_column(String(120), nullable=True)
-    mobile: Mapped[str] = mapped_column(String(120), nullable=True)
-    password: Mapped[str] = mapped_column(String(120))
     date: Mapped[str] = mapped_column(String(50))
+    completed: Mapped[bool] = mapped_column(Boolean())
+    deleted: Mapped[bool] = mapped_column(Boolean())
+    active: Mapped[bool] = mapped_column(Boolean())
     user_id: Mapped[int] = mapped_column(ForeignKey("users.id"))
-    user: Mapped["User"] = relationship(back_populates="websites")
+    user: Mapped["User"] = relationship(back_populates="tasks")
 
     def __repr__(self) -> str:
-        return f"Website(id={self.id!r}, website={self.website!r}, email={self.email!r}, password={self.password})"
+        return f"Website(id={self.id!r}, website={self.task!r}, email={self.tag!r}, password={self.date})"
 
 
 Base.metadata.create_all(engine)
-

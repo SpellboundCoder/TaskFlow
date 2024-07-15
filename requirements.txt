@@ -1,0 +1,6 @@
+flet~=0.23.2
+python-dotenv~=1.0.1
+SQLAlchemy~=2.0.31
+matplotlib~=3.9.1
+numpy~=2.0.0
+scipy~=1.14.0
