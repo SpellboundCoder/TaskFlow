@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd2aa697-67b1-43e5-a1f3-e759adef55c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Views/deleted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controls/chart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects TODO list" beforeDir="false" afterPath="$PROJECT_DIR$/Projects TODO list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/create_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/create_task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/welcome.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/welcome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/ui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controls/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controls/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controls/categories.py" beforeDir="false" afterPath="$PROJECT_DIR$/controls/categories.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controls/custom_checkbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/controls/custom_checkbox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controls/searchbar.py" beforeDir="false" afterPath="$PROJECT_DIR$/controls/searchbar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controls/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/controls/tasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/style.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/style.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dbconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/dbconfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func/password.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/completed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,17 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.home.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/CancelBoss/PycharmProjects/TODO_LIST/data&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.home.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/CancelBoss/PycharmProjects/TODO_LIST/data"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CancelBoss\PycharmProjects\TODO_LIST\data" />
